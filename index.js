@@ -1,9 +1,10 @@
 let tablaCustomer = localStorage.getItem("tablaCustomerStorage");
 tablaCustomer = JSON.parse(tablaCustomer);
 if(tablaCustomer == null){
-    tablaCustomer = [];
+   let tablaCustomer = [];
 }
 
+listar();
 function listar(){
     console.log ("List")
 
