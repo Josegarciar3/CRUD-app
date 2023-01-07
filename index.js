@@ -21,6 +21,7 @@ function listar(){
             dataRow += "<td>"+varCustomer.status+"</td>";
             dataRow += "<td>"+
                        "<button type='button' class='btn btn-warning' onclick='openForm("+varCustomer.idCustomer+")'> EDIT</button>"+
+                       "<button type='button' class='btn btn-danger m-1' onclick='borrar()'>DELETE</button>";
                        "</td>";
 
             dataRow += "</tr>";
@@ -33,4 +34,13 @@ function listar(){
 function openForm(idItem){
     localStorage.setItem("idItem", JSON.stringify(idItem));
     window.location.replace("customer-form.html");
+}
+function borrar(idDescription){
+
+    let customers = localStorage.getItem("idCustomer", JSON.stringify());
+
+
+    console.log('borrado')
+    console.log(customers)
+
 }

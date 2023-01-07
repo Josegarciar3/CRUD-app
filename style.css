@@ -1,0 +1,11 @@
+main{
+    background-image:url('https://thumbs.dreamstime.com/b/flea-market-flat-icon-second-hand-concept-hanger-tag-vector-199124593.jpg') ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+.item{
+    color: black;
+}
