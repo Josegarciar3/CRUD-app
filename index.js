@@ -44,3 +44,10 @@ function borrar(idDescription){
     console.log(customers)
 
 }
+console.log(BRAYAN)
+
+function suma(a,b){
+    let sum = (a+b)
+}
+
+suma(5,3)

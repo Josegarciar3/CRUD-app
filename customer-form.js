@@ -95,6 +95,3 @@ function cargarPagina(){
     }
 }
 
-function borrar(){
-    console.log ('deleted');
-}
